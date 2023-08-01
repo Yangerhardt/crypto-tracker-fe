@@ -1,0 +1,15 @@
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+
+  &-text {
+    margin-left: 20px;
+  }
+}
+
+.menu-icon-open {
+  padding: 4px;
+  transition: margin-left 0.3s ease-in-out;
+}
