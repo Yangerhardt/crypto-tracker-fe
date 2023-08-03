@@ -1,7 +1,7 @@
 import React from "react";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
 import styles from "./drawer-header.module.scss";
+import { AiOutlineMenu } from 'react-icons/ai';
 
 interface DrawerHeaderprops {
   open: boolean;
@@ -13,7 +13,7 @@ const DrawerHeader = ({ open, handleOpen }: DrawerHeaderprops) => {
     <div className={styles["drawer-header"]}>
       {open && <div className={styles["drawer-header-text"]}>Teste</div>}
       <IconButton onClick={handleOpen}>
-        <MenuIcon className={open ? styles["menu-icon-open"] : ""} />
+        <AiOutlineMenu className={open ? styles["menu-icon-open"] : ""} />
       </IconButton>
     </div>
   );

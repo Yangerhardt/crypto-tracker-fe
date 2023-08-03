@@ -1,0 +1,11 @@
+.drawer-footer-container {
+  position: fixed;
+  bottom: 8px;
+  left: 48px;
+  transition: opacity 0.3 ease;
+  opacity: 1;
+}
+
+.closed {
+  opacity: 0;
+}

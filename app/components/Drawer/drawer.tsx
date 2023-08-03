@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import DrawerHeader from "../drawer-header/drawer-header";
-import DrawerList from "../drawer-list/drawer-list";
 import styles from "./drawer.module.scss";
+import DrawerHeader from "./drawer-header/drawer-header";
+import DrawerList from "./drawer-list/drawer-list";
+import DrawerFooter from "./drawer-footer/drawer-footer";
 
 export default function Drawer() {
   const [open, setOpen] = useState(false);
@@ -20,6 +21,7 @@ export default function Drawer() {
     >
       <DrawerHeader open={open} handleOpen={handleOpen} />
       <DrawerList open={open} />
+      <DrawerFooter open={open}/>
     </div>
   );
 }

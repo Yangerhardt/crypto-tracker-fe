@@ -1,0 +1,21 @@
+@import "../../globals.scss";
+
+.drawer-container {
+  background-color: $mediumTheme;
+  width: 240px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  transition: 0.3s ease;
+  height: 100vh;
+  color: white;
+  
+
+  &.closed {
+    width: 60px;
+  }
+}
+
+
+

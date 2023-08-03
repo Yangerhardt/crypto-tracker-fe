@@ -1,0 +1,22 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh; 
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.value-card-container {
+  display: flex;
+  height: 160px;
+  flex: 3;
+}
+
+.chart-card-container {
+  display: inline-block;
+  height: 160px;
+  flex: 1;
+}

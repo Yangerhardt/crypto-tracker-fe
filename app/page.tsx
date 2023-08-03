@@ -1,8 +1,11 @@
-import DrawerContainer from './components/Drawer/drawer-container/drawer'
-import styles from './page.module.scss'
+import Drawer from "./components/Drawer/drawer";
+import RootLayout from "./layout";
+import styles from "./page.module.scss";
 
 export default function Home() {
   return (
-     <DrawerContainer />
-    )
+    <RootLayout>
+      <Drawer />
+    </RootLayout>
+  );
 }
