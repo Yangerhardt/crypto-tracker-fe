@@ -1,10 +1,9 @@
 @import "../../globals.scss";
 
-.chart-card-container {
-  min-width: 60vw;
-  min-height: 520px;
+.custom-card-container {
+  width: 50%;
+  height: 240px;
   background-color: $mediumTheme;
 }
-
 
 

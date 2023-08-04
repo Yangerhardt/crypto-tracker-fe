@@ -1,6 +1,6 @@
 .dashboard-container {
   display: flex;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .dashboard-content {
@@ -9,14 +9,23 @@
   flex: 1;
 }
 
-.value-card-container {
+.value-card-container,
+.custom-card-container {
   display: flex;
-  height: 160px;
-  flex: 3;
+  justify-content: space-evenly;
+  min-height: 160px;
+  margin: 20px 0;
+}
+
+.custom-card-container{
+  gap: 20px;
 }
 
 .chart-card-container {
-  display: inline-block;
-  height: 160px;
-  flex: 1;
+  display: flex;
+}
+
+.chart-assets-wrapper {
+  display: flex;
+  justify-content: space-evenly;
 }

@@ -13,6 +13,7 @@ const DrawerList = ({ open }: any) => {
         text="Dashboard"
         icon={<BiSolidDashboard />}
       />
+      <DrawerListItem open={open} text="Assets" icon={<BiLogoBitcoin />} />
       <DrawerListItem open={open} text="History" icon={<BiHistory />} />
       <DrawerListItem
         open={open}
@@ -20,7 +21,6 @@ const DrawerList = ({ open }: any) => {
         icon={<AiOutlineFundProjectionScreen />}
       />
       <DrawerListItem open={open} text="Goals" icon={<GoGoal />} />
-      <DrawerListItem open={open} text="Assets" icon={<BiLogoBitcoin />} />
     </div>
   );
 };

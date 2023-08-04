@@ -3,6 +3,6 @@ import styles from './chart-card.module.scss'
 
 export default function ChartCard() {
   return (
-    <div className={styles['card-container']}>chart-card</div>
+    <div className={styles['chart-card-container']}>chart-card</div>
   )
 }
